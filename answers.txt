@@ -2,11 +2,11 @@
 Ans: .gitignore file has the file extensions.Files in our repository with these extensions are not tracked by git.
 	For a java project we add 
 				#For class Files
-				  .class 
+				  *.class 
 				#For package files
-				  .jar
-				  .war
-				  .ear 
+				  *.jar
+				  *.war
+				  *.ear 
 
 •  What does fast-forward in git mean?
 Ans: When no commits happened in master after branch is created ,merging branch to master happens fast just by moving the master pointer forward to the final commit object  of the branch
